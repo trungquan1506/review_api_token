@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Axios in JavaScript</title>
+    </head>
+    <body>
+        <div>
+            <h1>Users</h1>
+            <ul></ul>
+        </div>
+        <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+        <script>
+            import axios from "axios"
+    async function fetchData() {
+        try {
+            const result = await axios.get('https://api.publicapis.org/entries');
+        console.los(result)
+    }
+        catch (error) {
+            console.log(error.response)
+        }
+    }
+    fetchData()
+        </script>
+    </body>
+</html>
