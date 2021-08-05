@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "argon": "^2.0.21",
     "argon2": "^0.28.2",
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
